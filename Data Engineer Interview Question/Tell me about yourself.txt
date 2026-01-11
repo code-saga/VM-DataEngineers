@@ -1,0 +1,21 @@
+Hi, good morning / good afternoon.
+
+I’m Sagar Lagare. I have five years of experience as a Data Engineer.
+
+I graduated in August 2020 with an engineering degree from JSS Science and Technology University, Mysore,
+where I studied from 2016 to 2020.
+
+My professional career began at Accenture, where I worked from February 2021 to July 2023.
+During this time, I gained strong experience in technologies like Xquery, Javascript and Marklogic NoSql db , SQL
+and worked on Agile methodology.
+
+Currently, I am working at ValueMomentum, a company focused on the P&C insurance domain.
+Here, I have contributed to multiple projects, including 
+ERIE Auto Program covering both personal and commercial lines, ESH (Erie Secure Homes), and WC (Workers’ Compensation).
+
+In terms of technology, I specialize in building and maintaining data pipelines using
+Python, SQL, Azure, and Databricks. Within Databricks, 
+I have hands-on experience with Unity Catalog, Delta Lake, and Delta Live Tables (DLT) 
+to ensure scalable, secure, and reliable data processing.
+
+Would you like me to explain the projects I have worked on in more detail?
