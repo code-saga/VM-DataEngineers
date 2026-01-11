@@ -1,0 +1,40 @@
+Insurance Data Migration Project 
+=================================
+
+I worked on an end-to-end insurance data migration project where the objective was to modernize legacy insurance systems and build a scalable, 
+analytics-ready data platform using Databricks.
+The business requirement was to migrate and consolidate data across core insurance domains such as Policy, Billing, Claim, and Customer, 
+which were spread across multiple legacy systems, primarily MarkLogic and One-Shield data feeds.
+As part of the Enterprise Data Hub team, where our responsibility started from the Bronze layer onward. 
+The upstream data ingestion from source systems such as MarkLogic and Oneshield was handled by a separate data ingestion team, 
+and they delivered raw data into the Bronze layer in Databricks.
+Our role was to consume this Bronze data and build scalable, reliable, and business-ready data pipelines
+
+The Bronze layer served as the raw data foundation for our processing. It contained data exactly as received from the source systems.
+The data stored as delta table and partition by load_date. This layer is important us to track & auditing support.
+
+From the Bronze layer, we processed data into the Silver layer, which is where the majority of our data engineering logic was implemented.
+In the Silver layer, we performed structural transformations such as flattening deeply nested Policy and Claim data, normalizing data types, 
+and standardizing column naming conventions.
+We applied deduplication logic based on business keys and implemented business validation rules to ensure data consistency across domains.
+One of the key responsibilities at this stage was alignment, 
+where we aligned Customer, Policy, Claim, and Billing data using standardized identifiers
+so that downstream analytics could reliably join and analyse data across domains.
+
+In the Data quality checks, We implemented validations such as ensuring that every claim was associated with a valid policy, every policy had an associated customer, and Billing records matched correctly with policy premium information
+Records that failed these checks were written to separate quarantine tables for investigation and business review.
+
+Once the data was cleansed, validated, and conformed in the Silver layer, we promoted it to the Gold layer.
+which was designed to serve business analytics and reporting needs
+The Gold layer contained curated, aggregated datasets such as active and lapsed policy summaries, premium collection and outstanding balances and customer 360 views. These datasets were optimized for consumption by Data Analysts and Claims team.
+
+To manage execution end to end, we used Databricks Workflows to orchestrate the pipelines. 
+Jobs were designed with clear dependencies so that Bronze to Silver , silver to Gold layer execution implemented and monitored.
+
+From a performance standpoint, we optimized Delta tables using partitioning on business dates, Z-ORDER on frequently queried columns such as policy ID and claim ID.
+
+Security and governance were implemented using Unity Catalog. We enforced role-based access control across schemas and tables and applied column-level masking for sensitive customer information to meet compliance and data privacy requirements.
+
+Overall, this project enabled the Enterprise Data Hub to transform raw insurance data from the Bronze layer into high-quality, business-ready datasets using Databricks. The solution improved data reliability, reduced reporting latency, ensured regulatory compliance, and provided a scalable foundation for analytics
+
+
