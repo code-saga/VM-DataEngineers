@@ -1,0 +1,26 @@
+Databricks Cluster
+===================
+- What is a Databricks cluster?
+- What are the main components of a Databricks cluster?
+- What is the role of the driver and executors?
+- How does Databricks manage the cluster lifecycle?
+
+- Difference between All-Purpose cluster and Job cluster?
+- When would you use an All-Purpose cluster?
+- Why are Job clusters preferred in production?
+- What is a Single Node cluster and its use cases?
+
+- What are Databricks cluster access modes?
+- Difference between Single User and Shared access mode?
+- Which access mode is required/recommended for Unity Catalog?
+- How do clusters enforce security and user isolation?
+
+- What is autoscaling in Databricks clusters?
+- Difference between autoscaling and fixed-size clusters?
+- How do you decide the number of workers for a workload?
+- How do you choose the right node type?
+
+- What is Photon and when should you enable it?
+- How does cluster configuration impact Spark performance?
+- What is auto-termination and why is it important?
+- How do Job clusters help in cost optimization?

@@ -5,12 +5,12 @@ Data Model Interview Questions
 3.  Difference between DWH vs DL vs Database ?
 4.  What is normalizations and it types ?
 5.  What is Dimension and facts table ?
-6.  What is Slowly Changing Dimentions ?
-7.  How you Impliment SCD1 and SCD 2 ?
-8.  Explain Star schema and Snoflake Schema ?
+6.  What is Slowly Changing Dimensions ?
+7.  How you Implement SCD1 and SCD 2 ?
+8.  Explain Star schema and Snowflake Schema ?
 9.  Explain OLTP vs OLAP ?
 10. Explain the need of surrogate key ?
 11. Dimension table vs One Big Table ?
 12. Explain Data Lake house ?
-13. Challenges on Datalake, Data ware house ?
+13. Challenges on Data lake, Data ware house ?
 14. 

@@ -1,0 +1,41 @@
+Azure Data Factory
+===================
+
+ADF Fundamentals
+- What is Azure Data Factory (ADF)?
+- Why is ADF used in modern data engineering architectures?
+- How is ADF different from traditional ETL tools?
+
+Core Architecture & Components
+- What are the main components of ADF?
+- What is a pipeline in ADF?
+- What is an activity, and what types of activities are available?
+- Difference between linked service and dataset?
+- How does ADF manage metadata vs runtime execution?
+
+Data Movement & Integration Runtime
+- What is Copy Activity and how does it work?
+- What are source and sink in Copy Activity?
+- What is an Integration Runtime (IR)?
+- Difference between Azure IR, Self-Hosted IR, and Azure-SSIS IR?
+- When would you use a Self-Hosted Integration Runtime?
+
+Orchestration, Parameters & Control Flow
+- What are parameters and variables in ADF?
+- Difference between parameters and variables?
+- What are control flow activities (If, ForEach, Until, Switch)?
+- How do you build dynamic and reusable pipelines?
+- How do you call one pipeline from another?
+
+Triggers & Scheduling
+- What are triggers in ADF?
+- Difference between Schedule, Tumbling Window, and Event triggers?
+- When should you use a Tumbling Window trigger?
+
+Monitoring, Error Handling & Recovery
+- How do you monitor pipeline executions in ADF?
+- How do you handle failures, retries, and alerts in ADF?
+
+Security, Performance & Cost
+- How are secrets, credentials, and security managed in ADF?
+- How do you optimize performance and cost in ADF pipelines?

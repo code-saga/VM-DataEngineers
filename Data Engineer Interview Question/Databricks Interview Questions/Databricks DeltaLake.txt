@@ -1,0 +1,19 @@
+Databricks Delta Lake
+----------------------
+
+- Data lake disadvantages ?
+- What is Delta Lake ?
+- How does delta ensure ACID transaction ?
+- Managed and External Table ?
+- How delta lake handles Schema evolution ?
+- Time Travel in Delta Lake ?
+- Delta log and its importance ?
+- Difference between Delta table and parquet format ?
+- How Delta lake handles CDC - capability ?
+- Optimization techniques in Delta tables ?
+- How Delta lake handles Delete and Update operations ?
+- Difference between Delta table and Delta Live Table ?
+- What is the deletion vector in Delta lake ?
+- What is Stream Data and batch data ?
+- What is Autoloader ?
+-

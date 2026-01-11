@@ -1,0 +1,12 @@
+Databricks Unity Catalog
+------------------------
+
+- What is unity catalog and its features ?
+- Explain data lineage, Delta sharing in unity catalog ?
+- How to create and configure Unity metastore ?
+- Explain unity catalog object hierarchy model ?
+- What is data masking and how to implement ?
+- What are managed and external table ? 
+- What are the main 5 features of Unity Catalog ? how to implement ?
+- How to provide granularity Access to Data ?
+- 

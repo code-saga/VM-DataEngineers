@@ -1,0 +1,44 @@
+SQL Problem Statements
+----------------------
+1.  Select, Where
+2.  Group By, Having
+3.  Case When
+4.  Windows 
+	a. Lead / Lag
+	b. Rank / Dense_Rank / Row_Number
+	c. Sum / Avg / Count
+
+=====================================================
+
+Select
+
+1.
+
+
+======================================================
+
+Case When
+
+Observations:
+	- Miscellaneous behaviour of Columns
+	- New Column, with manual Requirement
+
+Questions :
+1. Table contains 30 different countries. whenever we quesry 'India' comes first, remaining later.
+2. 
+
+=======================================================
+
+Windows
+
+Rank / Dense_Rank / Row_Number :->
+	Observation :
+		- specific rank / nth order data
+
+	Questions :
+	1. Find second(n) highest Salary - department wise
+	2. 
+
+Lead / Lag
+	Observation :
+		- Need Specific Date difference

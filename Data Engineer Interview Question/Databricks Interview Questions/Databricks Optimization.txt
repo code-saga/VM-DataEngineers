@@ -1,0 +1,9 @@
+Databricks Optimization
+=======================
+
+- How does Databricks optimize query execution?
+- Role of Catalyst Optimizer and Tungsten.
+- How does Photon change execution architecture?
+- How does Databricks handle large joins and shuffles?
+- How does caching fit into performance architecture?
+

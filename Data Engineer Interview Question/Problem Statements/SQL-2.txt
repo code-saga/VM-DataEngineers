@@ -1,0 +1,19 @@
+SQL Problem Statements
+----------------------
+
+5.  Joins
+	a. Inner / Left / Right / Full / Anti
+6.  Common Table Expression
+7.  Date Functions
+8.  Delete
+
+===================================================================================================================
+Joins
+	Observation :
+1. Count of all Joins
+	Inner - col1(x _num) * col2(x _num) + col1(y _num) * col2(y _num)
+	Left  - Inner + left (remaining row count)
+	Right - Inner + right(remaining row count)
+	Full  - Left  + right - Inner
+	Cross - Col1(row _num) * col2(row _num)
+2. 

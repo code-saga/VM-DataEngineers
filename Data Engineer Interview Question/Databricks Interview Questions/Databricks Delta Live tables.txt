@@ -1,0 +1,10 @@
+Medallion Architecture
+======================
+
+- What is Medallion architecture in Databricks?
+- Explain Bronze, Silver, Gold layers.
+- Why is medallion architecture preferred?
+- How does Delta Lake support medallion architecture?
+- Where do DLT (Delta Live Tables) fit architecturally?
+- How does data flow between medallion layers?
+

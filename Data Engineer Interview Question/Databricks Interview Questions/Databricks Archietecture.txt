@@ -1,0 +1,18 @@
+Databricks Architecture
+========================
+
+- What is Databricks and why is it called a Lakehouse platform?
+- Explain the high-level Databricks architecture.
+- What are the main layers in Databricks architecture?
+- How does Databricks sit on top of cloud providers (AWS / Azure / GCP)?
+- What components run in the control plane?
+- What components run in the data plane?
+- Why is Databricks considered a managed Spark platform?
+- How does Databricks handle scalability and fault tolerance?
+- Explain control plane vs data plane with an example.
+- Does Databricks store customer data in the control plane?
+- How is security maintained between control and data planes?
+- What happens in the control plane when you submit a job?
+- What happens in the data plane during job execution?
+
+

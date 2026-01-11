@@ -1,0 +1,25 @@
+Databricks Other concepts
+=========================
+
+Workspace (Foundation + Governance)
+- What is a Databricks Workspace and what role does it play in the platform?
+- How do you organize folders, notebooks, and repos in a Databricks Workspace?
+- How do you manage multiple workspaces for dev, test, and prod?
+- How are permissions and access control handled at the workspace level?
+
+Databricks Notebooks (Core Execution Model)
+- What is a Databricks Notebook and how is it different from a traditional IDE?
+- What languages are supported in Databricks notebooks?
+- How does a notebook attach to a cluster and execute code?
+- Difference between interactive notebook execution and job-run notebooks?
+- How do you design modular and reusable notebooks for production pipelines?
+
+Notebook Orchestration & Parameters
+- How do you pass parameters to a Databricks notebook?
+- How do you call one notebook from another, and when is this used?
+
+dbutils (Must-Know Utilities)
+- What is dbutils and why is it important in Databricks?
+- What are the commonly used dbutils modules in real projects?
+- How do you use dbutils.secrets and why should secrets never be hardcoded?
+- How does dbutils.fs interact with DBFS and cloud storage?
