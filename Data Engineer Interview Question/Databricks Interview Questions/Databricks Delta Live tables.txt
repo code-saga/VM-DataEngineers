@@ -8,3 +8,43 @@ Medallion Architecture
 - Where do DLT (Delta Live Tables) fit architecturally?
 - How does data flow between medallion layers?
 
+Delta Live Tables
+=================
+
+- What is Delta Live Tables (DLT)?
+- Why do we use DLT instead of traditional Spark ETL?
+- What problems does DLT solve in data engineering?
+
+- What is a DLT pipeline?
+- What are LIVE tables?
+- How does DLT manage table dependencies automatically?
+- Difference between DLT managed tables and external tables?
+
+- Difference between Streaming Live Tables and Batch Live Tables?
+- When should you use streaming vs batch in DLT?
+- What is a Materialized View in DLT?
+- Difference between Live Table and Materialized View?
+- Can a single DLT pipeline contain both batch and streaming tables?
+
+- How does DLT handle incremental data processing?
+- What is checkpointing in DLT and why is it required?
+- How does DLT handle late-arriving data?
+
+- What are expectations in DLT?
+- Difference between expect, expect_or_drop, and expect_or_fail?
+- How are data quality violations tracked and reported?
+
+- How do you monitor a DLT pipeline?
+- What happens when a DLT pipeline fails?
+- How does DLT support automatic recovery and retries?
+
+- How does DLT optimize performance compared to manual Spark jobs?
+- How do you control cost in DLT pipelines?
+
+- How does DLT integrate with Unity Catalog?
+- How does DLT support data lineage and governance?
+
+
+
+----------------------------My Question Set ---------------------------------------------
+- What is Append flow ?

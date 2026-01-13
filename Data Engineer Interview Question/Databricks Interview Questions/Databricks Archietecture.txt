@@ -10,7 +10,6 @@ Databricks Architecture
 - Why is Databricks considered a managed Spark platform?
 - How does Databricks handle scalability and fault tolerance?
 - Explain control plane vs data plane with an example.
-- Does Databricks store customer data in the control plane?
 - How is security maintained between control and data planes?
 - What happens in the control plane when you submit a job?
 - What happens in the data plane during job execution?

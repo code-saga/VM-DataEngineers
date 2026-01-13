@@ -8,5 +8,14 @@ Databricks Unity Catalog
 - What is data masking and how to implement ?
 - What are managed and external table ? 
 - What are the main 5 features of Unity Catalog ? how to implement ?
-- How to provide granularity Access to Data ?
-- 
+- How to provide granularity Access to Data 
+- How fine grain access can be controlled on Catalog -> Schema -> Table ?
+
+
+---------------------------------------------------------------------
+- Unity Catalog vs Hive Metastore comparison ?
+- What problems does Unity Catalog solve compared to the Hive metastore ?
+- Explain the hierarchy Metastore → Catalog → Schema → Table/View.
+- Difference between GRANT on catalog, schema, and table?
+- How does Unity Catalog enforce row-level and column-level security?
+- How do you track who accessed what data and when?

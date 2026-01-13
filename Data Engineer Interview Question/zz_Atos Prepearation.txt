@@ -1,0 +1,131 @@
+Below is an **analyzed, role-specific interview question set** based strictly on the **JD you shared**.
+The questions are ordered from **HIGH → MEDIUM → LOW priority**, exactly how interviews typically progress for an **Azure Data Engineer (mid–senior)** role.
+
+(Only interview questions. No answers.)
+
+---
+
+# 🔥 Azure Data Engineer – Likely Interview Questions (Top ~50)
+
+---
+
+## 🟥 HIGH PRIORITY (Core – asked in almost every round)
+
+### **Azure Databricks + Spark (Very High Focus)**
+
+1. What is Azure Databricks and why is it used in data engineering?
+2. Explain Spark architecture (Driver, Executor, Cluster Manager).
+3. Difference between **RDD, DataFrame, and Dataset**?
+4. How does Spark handle large-scale data processing?
+5. What is **lazy evaluation** in Spark?
+6. How does **partitioning** affect Spark performance?
+7. What are **wide vs narrow transformations**?
+8. How do you handle **skewed data** in Spark?
+9. How do you optimize a slow-running Spark job?
+10. Difference between **cache() and persist()**?
+11. What is **shuffle** and why is it expensive?
+12. How do you tune Spark jobs in Databricks?
+
+---
+
+### **Azure Data Factory (ADF)**
+
+13. What is Azure Data Factory and where does it fit in architecture?
+14. Explain **ADF pipeline, activity, dataset, linked service**.
+15. What is **Copy Activity** and how does it work?
+16. What are **Integration Runtimes** and their types?
+17. When do you use **Self-Hosted Integration Runtime**?
+18. How do you handle **parameters and variables** in ADF?
+19. Difference between **Schedule trigger** and **Tumbling Window trigger**?
+20. How do you monitor and debug ADF pipelines?
+
+---
+
+### **ETL / ELT & Pipeline Design**
+
+21. Difference between **ETL vs ELT**?
+22. How do you design a **scalable ETL pipeline**?
+23. How do you handle **incremental loads**?
+24. How do you ensure **idempotency** in pipelines?
+25. How do you manage **failures and retries** in data pipelines?
+
+---
+
+## 🟧 MEDIUM PRIORITY (Strong expectation for senior profiles)
+
+### **SQL & Spark SQL (Performance Heavy)**
+
+26. How is **Spark SQL** different from traditional SQL?
+27. How do you optimize a complex SQL query?
+28. What are **indexes** and when do they help?
+29. Explain **window functions** and their use cases.
+30. How do you identify performance bottlenecks in SQL queries?
+31. Difference between **CTE vs subquery**?
+32. How do joins work internally in Spark SQL?
+33. What is **broadcast join** and when should you use it?
+
+---
+
+### **Performance Tuning & Large-Scale Data**
+
+34. How do you tune performance for large datasets?
+35. What metrics do you monitor during performance tuning?
+36. How do you compare performance between two ETL implementations?
+37. What causes memory spills in Spark?
+38. How do you handle **small file problems**?
+
+---
+
+### **Databricks + ADF Integration**
+
+39. How do you trigger Databricks notebooks from ADF?
+40. When would you use **ADF vs Databricks Jobs**?
+41. How do you pass parameters from ADF to Databricks?
+
+---
+
+## 🟨 LOW PRIORITY (May appear in senior or scenario rounds)
+
+### **Schedulers & Automation**
+
+42. What experience do you have with job schedulers like **Control-M or WLA**?
+43. How does enterprise scheduling differ from ADF triggers?
+44. How do you manage dependencies between batch jobs?
+
+---
+
+### **Collaboration & Validation**
+
+45. How do you perform **parallel testing** with Informatica pipelines?
+46. How do you validate data correctness between two systems?
+47. How do you handle data reconciliation issues?
+
+---
+
+### **System Design & Scalability**
+
+48. How do you design data pipelines for **high availability**?
+49. How do you scale pipelines when data volume grows 5–10x?
+50. Explain an end-to-end Azure data pipeline you built.
+
+---
+
+## 🎯 Interview Pattern Insight (Very Important)
+
+Based on this JD:
+
+* **~60%** questions → Databricks + Spark + SQL
+* **~25%** questions → ADF + orchestration
+* **~15%** questions → Performance tuning, schedulers, real scenarios
+
+If you can confidently handle **Top 30 questions**, you are **interview-ready** for this role.
+
+---
+
+If you want next (recommended):
+
+* ✅ **Top 20 “must-prepare” answers**
+* ✅ **Mock interview flow based on this JD**
+* ✅ **One end-to-end project story tailored to this role**
+
+Just tell me 👍
