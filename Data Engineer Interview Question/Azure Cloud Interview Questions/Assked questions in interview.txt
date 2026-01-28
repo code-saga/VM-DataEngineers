@@ -1,0 +1,10 @@
+Real Word Requirement :
+- Ingestion of JSON -> flatten -> Store in Target ?
+- How to handle null values and empty column ?
+- How to set schema in ADF ?
+
+ADF
+----
+
+- Source data coming in JSON format, with deeply nesting. How do you flatten data in ADF ?
+- In Source CSV data coming empty for columns - those record need to be show/keep for the record ? 

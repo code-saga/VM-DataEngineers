@@ -16,7 +16,9 @@ The data stored as delta table and partition by load_date. This layer is importa
 From the Bronze layer, we processed data into the Silver layer, which is where the majority of our data engineering logic was implemented.
 In the Silver layer, we performed structural transformations such as flattening deeply nested Policy and Claim data, normalizing data types, 
 and standardizing column naming conventions.
+
 We applied deduplication logic based on business keys and implemented business validation rules to ensure data consistency across domains.
+
 One of the key responsibilities at this stage was alignment, 
 where we aligned Customer, Policy, Claim, and Billing data using standardized identifiers
 so that downstream analytics could reliably join and analyse data across domains.
@@ -24,11 +26,11 @@ so that downstream analytics could reliably join and analyse data across domains
 In the Data quality checks, We implemented validations such as ensuring that every claim was associated with a valid policy, every policy had an associated customer, and Billing records matched correctly with policy premium information
 Records that failed these checks were written to separate quarantine tables for investigation and business review.
 
-Once the data was cleansed, validated, and conformed in the Silver layer, we promoted it to the Gold layer.
+Once the data was cleansed, validated, and standardized in the Silver layer, we promoted it to the Gold layer.
 which was designed to serve business analytics and reporting needs
 The Gold layer contained curated, aggregated datasets such as active and lapsed policy summaries, premium collection and outstanding balances and customer 360 views. These datasets were optimized for consumption by Data Analysts and Claims team.
 
-To manage execution end to end, we used Databricks Workflows to orchestrate the pipelines. 
+To manage execution end to end, we used Databricks DLT to orchestrate the pipelines. 
 Jobs were designed with clear dependencies so that Bronze to Silver , silver to Gold layer execution implemented and monitored.
 
 From a performance standpoint, we optimized Delta tables using partitioning on business dates, Z-ORDER on frequently queried columns such as policy ID and claim ID.

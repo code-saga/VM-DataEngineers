@@ -3,7 +3,6 @@ Databricks Cluster
 - What is a Databricks cluster?
 - What are the main components of a Databricks cluster?
 - What is the role of the driver and executors?
-- How does Databricks manage the cluster lifecycle?
 
 - Difference between All-Purpose cluster and Job cluster?
 - When would you use an All-Purpose cluster?

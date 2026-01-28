@@ -1,0 +1,26 @@
+Question Set
+=============
+
+Big Data
+--------
+- What is Big Data? Explain 5Vs.
+- Difference between Monolithic vs Distributed Systems ?
+- Why Distributed Systems are better than Monolithic System ?
+
+Hadoop
+------
+- What is Hadoop ?
+- 3 components of Hadoop ?
+- What are the challenges with Hadoop ?
+
+Cloud
+-----
+- difference between public vs Hybrid vs private ?
+- Advantages of cloud ?
+
+
+-----
+- What is spark ? (store and process data in memory ?
+- Challenges of MapReduce ?
+- Explain 2 layers of spark ?
+- 

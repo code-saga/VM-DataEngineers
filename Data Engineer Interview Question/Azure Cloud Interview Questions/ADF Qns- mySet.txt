@@ -1,0 +1,9 @@
+note Create one JSON file ingest it as parquet format - by flattening data.
+
+ADF Questions
+------------
+
+- What is ADF?
+- What are the connectors and Dataflows ?
+- What does IR do?
+

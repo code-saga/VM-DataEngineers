@@ -1,0 +1,41 @@
+Note : Categories - question set
+Case When - CW | Windows Lag : WLg, WLd, WS , WA, WC, WRn , WD , WRk 
+Date - DateDiff :Df | Month : MM | Day : dd | Year :YY | WeekDay : d_WD |
+String - SubString 
+RegEx - 
+
+SQL - Interview questions
+---------------------------
+1. get % of difference - compare to previous month ( WLg, MM )
+able : sales_transactions
+transaction_id	amount	transaction_date   
+1		100.00	2023-01-05
+2		150.00	2023-01-20
+3		200.00	2023-02-10
+4		300.00	2023-03-05
+5		250.00	2023-03-15
+6		600.00	2023-04-01
+
+2. split city and Pin in different columns ( Str , Rgx )
+TableA (Str)
+COL_1
+Mumbai400001
+Delhi110001
+Bengaluru560001
+
+3. Missing Dates ( Date range )
+eod_date ,	
+2025-12-01	
+2025-12-02	
+2025-12-07	    
+2025-12-09
+
+4. Max and min amount per user ( WD)
+user_id, txn_date, amount
+1,2026-01-01,500
+1,2026-01-03,600
+1,2026-01-04,500
+2,2026-01-10,200
+2,2026-01-12,400
+2,2026-01-13,600
+

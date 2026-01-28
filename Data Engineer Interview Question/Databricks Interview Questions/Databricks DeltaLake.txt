@@ -6,7 +6,8 @@ Databricks Delta Lake
 - How does delta ensure ACID transaction ?
 - Managed and External Table ?
 - How delta lake handles Schema evolution ?
-- Time Travel in Delta Lake ?
+- Time Travel in Delta Lake ? querying history data ?
+- How does Delta Lake support data auditing and rollback?
 - Delta log and its importance ?
 - Difference between Delta table and parquet format ?
 - How Delta lake handles CDC - capability ?
@@ -16,4 +17,13 @@ Databricks Delta Lake
 - What is the deletion vector in Delta lake ?
 - What is Stream Data and batch data ?
 - What is Autoloader ?
--
+
+-----------------------------------------------------------------------------
+
+What is the Delta transaction log (_delta_log)?
+What is snapshot isolation in Delta Lake?
+What are DELETE, UPDATE, and MERGE operations in Delta Lake?
+Difference between MERGE and INSERT OVERWRITE?
+How does Delta Lake integrate with Unity Catalog?
+How does Delta Lake support data lineage and governance?
+How does Delta Lake fit into a medallion architecture?

@@ -17,5 +17,4 @@ PySpark, SQL, Azure and Databricks. Within Databricks,
 I have strong hands-on experience with Unity Catalog, Delta Lake, and Delta Live Tables (DLT).
 Ensuring data quality, security, and performance across the platform.
 
-Would you like me to explain the projects I have worked on in more detail?
-
+If you would like, then I'll explain my project in detail ?

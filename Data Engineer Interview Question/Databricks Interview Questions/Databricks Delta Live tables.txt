@@ -40,11 +40,7 @@ Delta Live Tables
 
 - How does DLT optimize performance compared to manual Spark jobs?
 - How do you control cost in DLT pipelines?
-
 - How does DLT integrate with Unity Catalog?
 - How does DLT support data lineage and governance?
-
-
-
-----------------------------My Question Set ---------------------------------------------
 - What is Append flow ?
+- What happens internally when you trigger a DLT pipeline run ?

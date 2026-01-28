@@ -6,4 +6,3 @@ Databricks Optimization
 - How does Photon change execution architecture?
 - How does Databricks handle large joins and shuffles?
 - How does caching fit into performance architecture?
-
